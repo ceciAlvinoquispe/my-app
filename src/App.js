@@ -3,9 +3,9 @@ import {getProducts} from './services/Api';
 import Home from './component/Home';
 import {CartProvider} from './context/storeProducts';
 
-import createBrowserHistory from 'history/createBrowserHistory';
+// import createBrowserHistory from 'history/createBrowserHistory';
 
-const history = createBrowserHistory();
+// const history = createBrowserHistory();
 const { useState, useEffect } = React;
 
 export default function App() {
